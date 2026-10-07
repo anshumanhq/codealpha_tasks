@@ -94,7 +94,7 @@ This repository uses **dummy emails only**. Never upload real/private email data
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/anshumanhq)
+- GitHub: [@anshumanhq](https://github.com/anshumanhq)
 - LinkedIn: [Your Profile](https://linkedin.com/in/anshuman-singh-hq)
 
 ---
