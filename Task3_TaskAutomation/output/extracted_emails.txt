@@ -1,0 +1,6 @@
+alice@example.com
+billing@company.org
+bob@example.com
+help.desk@mysite.co.in
+marketing@brand.io
+support@example.org
