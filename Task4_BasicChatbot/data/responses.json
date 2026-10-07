@@ -1,0 +1,92 @@
+{
+  "welcome": [
+    "Hello! 👋 I'm CodeBot. How can I help you today?",
+    "Hi there! 🤖 I'm CodeBot. What's on your mind?",
+    "Hey! Nice to meet you. I'm CodeBot — ask me anything!"
+  ],
+  "greetings_name": [
+    "Nice to meet you, {name}! 😊 How can I help you?",
+    "Hello {name}! Great to know your name. What would you like to talk about?",
+    "Hi {name}! 👋 I'll remember that. How can I assist you?"
+  ],
+  "intents": {
+    "greeting": {
+      "keywords": ["hello", "hi", "hey", "hola", "namaste"],
+      "responses": [
+        "Hello! How are you doing today?",
+        "Hi there! 😊 What can I do for you?",
+        "Hey! Great to see you."
+      ]
+    },
+    "how_are_you": {
+      "keywords": ["how are you", "how do you do", "kaise ho"],
+      "responses": [
+        "I'm just a bunch of code, but I'm running great! 😄 How about you?",
+        "Doing fantastic, thanks for asking! How are you?",
+        "All systems operational! 🚀 What about you?"
+      ]
+    },
+    "name": {
+      "keywords": ["your name", "who are you", "what are you"],
+      "responses": [
+        "I'm CodeBot 🤖 — a simple rule-based chatbot built in Python.",
+        "My name is CodeBot. I was created for the CodeAlpha internship task!",
+        "I'm CodeBot, your friendly Python chatbot."
+      ]
+    },
+    "help": {
+      "keywords": ["help", "assist", "support", "guide"],
+      "responses": [
+        "Sure! I can chat about greetings, answer basic questions, and tell you about myself. Try asking 'who are you' or 'what can you do'.",
+        "I'm here to help! Ask me about time, date, jokes, or just have a casual chat.",
+        "Of course! Type things like 'tell me a joke', 'what's the time', or 'who are you'."
+      ]
+    },
+    "time": {
+      "keywords": ["time", "what time"],
+      "responses": ["__TIME__"]
+    },
+    "date": {
+      "keywords": ["date", "today", "what day"],
+      "responses": ["__DATE__"]
+    },
+    "joke": {
+      "keywords": ["joke", "funny", "laugh"],
+      "responses": [
+        "Why don't programmers like nature? It has too many bugs. 🐛",
+        "Why did the Python programmer go broke? Because he used up all his cache. 💸",
+        "I told my computer I needed a break... now it won't stop sending me KitKat ads. 🍫",
+        "Why do Java developers wear glasses? Because they don't C#. 👓"
+      ]
+    },
+    "thanks": {
+      "keywords": ["thanks", "thank you", "thx"],
+      "responses": [
+        "You're welcome! 😊",
+        "Anytime! Happy to help.",
+        "No problem at all! 🙌"
+      ]
+    },
+    "capabilities": {
+      "keywords": ["what can you do", "features", "abilities"],
+      "responses": [
+        "I can greet you, tell the time/date, share jokes, and chat casually. I'm rule-based, so I understand keywords. 🤖",
+        "I can respond to greetings, tell you about myself, share jokes, and give the current time or date!"
+      ]
+    },
+    "bye": {
+      "keywords": ["bye", "goodbye", "exit", "quit", "see you"],
+      "responses": [
+        "Goodbye! Have a great day! 👋",
+        "See you later! Take care. 😊",
+        "Bye! Come back anytime. 🚀"
+      ]
+    }
+  },
+  "fallback": [
+    "Hmm, I didn't quite understand that. Could you rephrase? 🤔",
+    "Sorry, I'm still learning! Try asking something else.",
+    "I'm not sure how to respond to that yet. Type 'help' to see what I can do.",
+    "Interesting... but I don't have an answer for that. Try 'help' for options!"
+  ]
+}
