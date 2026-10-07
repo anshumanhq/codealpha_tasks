@@ -1,0 +1,9 @@
+Hi team,
+Please contact alice@example.com for project updates.
+For billing issues, reach out to billing@company.org.
+Support queries: support@example.org or help.desk@mysite.co.in
+Personal: bob@example.com
+Invalid ones: not-an-email, hello@, @domain.com
+Marketing team: marketing@brand.io
+Regards,
+Test User
